@@ -4,6 +4,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - run: echo hello
+    - run: python3 test.py
+    - run: echo "OK"
 
 
