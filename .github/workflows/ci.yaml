@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: pwd
+    - run: ls -l
     - run: python3 ./test.py
     - run: echo "OK"
 
