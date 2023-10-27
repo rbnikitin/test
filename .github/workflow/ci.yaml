@@ -1,1 +1,9 @@
-1
+name: test ci
+on: [push]
+jobs:
+  test:
+    run-on: ubuntu-latest
+    step:
+    - run: echo hello
+
+
