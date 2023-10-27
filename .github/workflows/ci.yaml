@@ -3,7 +3,7 @@ on: [push]
 jobs:
   test:
     run-on: ubuntu-latest
-    step:
+    steps:
     - run: echo hello
 
 
